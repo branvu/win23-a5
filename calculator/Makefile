@@ -7,5 +7,4 @@ $(objects): %.o:%.c operations.h
 
 clean:
 	rm -f calculator $(objects)
-
 .PHONY:all
